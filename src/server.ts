@@ -15,7 +15,7 @@ import path from 'path';
   // Use the body parser middleware for post requests
   app.use(bodyParser.json());
 
-  app.get("/filteredimage", async (req, res) => {
+  app.get("/filteredimage", async (req: Request, res: Response) => {
     const image_url = req.query.image_url;
 
     if (image_url && isValidURL(image_url)) {
