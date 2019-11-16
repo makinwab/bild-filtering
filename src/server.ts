@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import { Router, Response, Request } from 'express'
+import { Response, Request } from 'express'
 import { filterImageFromURL, deleteLocalFiles, isValidURL } from './util/util';
 import path from 'path';
 
