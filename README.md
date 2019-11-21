@@ -1,6 +1,6 @@
 # Bild Filtering AKA Udagram Image Filtering Microservice
 
-[The Image Filtering Microservice](https://github.com/udacity/cloud-developer/tree/master/course-02/project/image-filter-starter-code), the final project for the course.
+[The Image Filtering Microservice](https://github.com/makinwab/bild-filtering), the final project for the course.
 
 
 # Using the deployed app
