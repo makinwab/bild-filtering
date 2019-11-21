@@ -26,7 +26,7 @@ import path from 'path';
         await deleteLocalFiles([filteredImage]);
       });
     } else {
-      res.sendStatus(400);
+      res.status(400).send('Image url is not specified');
     }
   })
 
